@@ -7,6 +7,7 @@ c.customerid,
 c.customername,
 c.segment,
 p.productid,
+p.productname,
 p.category,
 p.subcategory,
 (o.ordersellingprice - o.ordercostprice) as orderprofit

@@ -24,3 +24,6 @@ models:
     staging:                    # ← add this
       +materialized: view       # staging is typically views, not tables
       +schema: staging
+    reporting:                    # ← add this
+      +materialized: view       # staging is typically views, not tables
+      +schema: reporting      
