@@ -21,3 +21,6 @@ models:
     raw:
       +materialized: table
       +schema: raw
+    staging:                    # ← add this
+      +materialized: view       # staging is typically views, not tables
+      +schema: staging
